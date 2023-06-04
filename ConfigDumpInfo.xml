@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="Catalog.Вопросы" id="0e80e71c-58fc-4a4b-9f61-b1b74a09f9ea" configVersion="56d3d4a1c23a2849a359453b74f3325f00000000">
+			<Metadata name="Catalog.Вопросы.Attribute.Ответы" id="3330daad-9b1c-4feb-9bed-224c950c5b56"/>
+			<Metadata name="Catalog.Вопросы.Attribute.Вопросы" id="c2b318ab-d2e4-4220-9bc2-7c51f311e785"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОГражданине" id="7f20e0d6-9da1-4170-956e-d11ffb3241f6" configVersion="d95d9debb1e358459210b84d0949bd0400000000">
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникАдрес" id="307be760-0a29-44eb-a4cc-c7f1748adf47"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникаСоциальныеДанные" id="4872351a-ca74-430e-a508-66cd4a958e58"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникаСотрудник" id="5e14d9d1-a1ee-4745-a190-22c03652b322"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникаНациональности" id="955468a2-6c13-4576-8733-60022a2d2c02"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочнниаДанныеОСтране" id="96250442-7911-4920-b6f5-c66dea703abf"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникаВопросы" id="b1548dab-1933-4c6c-afb5-764474049cc5"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникаПерсональныеДанные" id="dfd8f68e-5057-4b85-bc09-14c29d569c5c"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.ФИО" id="e33ee348-815c-450b-8b1c-ab970233ced3"/>
+			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникаДанныеСемьи" id="f87f38e0-72f3-416b-92df-ee67f2ff6e4f"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОРаботе" id="bdf9ec60-cffa-43c0-8f55-69311e45f50d" configVersion="1f38fa962f213c40aae1446e087380fd00000000">
+			<Metadata name="Catalog.ДанныеОРаботе.Attribute.СтатусЭкономическойАктичности" id="343453f9-70d4-4c54-a737-43acb4cb908d"/>
+			<Metadata name="Catalog.ДанныеОРаботе.Attribute.СтатусВозможнойРаботоспособности" id="d2f52448-2639-4876-9bd2-5f947303ea06"/>
+			<Metadata name="Catalog.ДанныеОРаботе.Attribute.Работа" id="f5268ac3-1bed-4c93-b342-2dd70571e661"/>
+			<Metadata name="Catalog.ДанныеОРаботе.Attribute.РодЗанятий" id="ffd1975c-77ae-4427-b9fb-361c0b855742"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОбАдресе" id="b845c4f5-dcf6-4420-b60e-8e76822fb8b7" configVersion="759295d3d51ead43928b1a95926c30b800000000">
+			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Строение" id="08a7adfc-b65a-4567-bb05-73f94687734c"/>
+			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Регион" id="1844cb12-e261-411d-9026-6d4f0d968746"/>
+			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Дом" id="3cbf0c9c-a489-4f1d-b7b1-74e66c904531"/>
+			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Улица" id="62ea1556-f52f-4026-bf29-d91187cb2df6"/>
+			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Область" id="7e6b0d48-dd71-46bb-9958-172cc8670909"/>
+			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.НаселенныйПункт" id="eb9bf473-7aef-46d1-a9f3-968c165dbeda"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОбНациональность" id="527428dc-afee-46c2-aafa-00df85f7dfc9" configVersion="38f16c76fbe92a4194b62098a32a6a2f00000000">
+			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.ПервыйЯзык" id="0b4812f0-3341-49c1-b003-5ec205d66aed"/>
+			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.ДругиеЯзыки" id="22aa3145-2451-4c93-bc1e-57be1a254e05"/>
+			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.Религия" id="4b034af6-e63d-4a4f-a149-88c969ad4fe6"/>
+			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.Национальность" id="e3995320-0db6-4f01-a7fa-a101856193ab"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОбОбразовании" id="3d2392a5-5f7e-4730-95b9-0f5c2eb1a52d" configVersion="4c91a6610401d04bbf029443f7d7bf0600000000">
+			<Metadata name="Catalog.ДанныеОбОбразовании.Attribute.УровеньОбразования" id="1aacc146-ad9d-4912-b322-230d2c87bbab"/>
+			<Metadata name="Catalog.ДанныеОбОбразовании.Attribute.ОбразовательныеУчреждения" id="2351ea5b-0f99-4cf2-9384-5a3007cc638b"/>
+			<Metadata name="Catalog.ДанныеОбОбразовании.Attribute.УровеньГрамотности" id="36d335a0-6276-43cf-a329-96e3561753fa"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОбСемье" id="c7ec3491-e96e-4748-8f8d-cb93bb8d6326" configVersion="bda20d365499f24cad644a8525bcbe5000000000">
+			<Metadata name="Catalog.ДанныеОбСемье.Attribute.СтатусЧленаСемьи" id="16b6e005-15ef-4ca1-bdb6-87748aca575b"/>
+			<Metadata name="Catalog.ДанныеОбСемье.Attribute.ЧленСемьи" id="19c8ea1b-b200-4de1-81ae-83edf094f2c5"/>
+			<Metadata name="Catalog.ДанныеОбСемье.Attribute.Отношение" id="d1d3c3fc-dae9-4a71-9d5a-4388f1b63907"/>
+			<Metadata name="Catalog.ДанныеОбСемье.Attribute.СтепеньРодства" id="d7ba2b26-370b-4c48-b5e7-26d10dad7882"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОбСтране" id="d3b13651-6a32-4e50-bb95-6d1f3013164d" configVersion="41bcafaf278c794ca9df8fd7232dabad00000000">
+			<Metadata name="Catalog.ДанныеОбСтране.Attribute.ДатаМиграции" id="19856ef9-f173-4e0b-a299-34d6ad51870e"/>
+			<Metadata name="Catalog.ДанныеОбСтране.Attribute.Гражданство" id="580184cc-f845-4f9b-be95-3fa7066a7db8"/>
+			<Metadata name="Catalog.ДанныеОбСтране.Attribute.СтранаРождения" id="c8bf7642-78dc-4792-811f-35e970497d7f"/>
+		</Metadata>
+		<Metadata name="Catalog.ПерсональныеДанные" id="16b5d8fb-2308-46f1-b406-5b81c334b81c" configVersion="6ee2c8554ebecd4f88b09ce90486d60900000000">
+			<Metadata name="Catalog.ПерсональныеДанные.Attribute.Пол" id="23dd25bb-40d6-43bc-bfd9-5256ca713f1d"/>
+			<Metadata name="Catalog.ПерсональныеДанные.Attribute.Возраст" id="2c3982b6-8735-442c-948a-79fb6455c131"/>
+			<Metadata name="Catalog.ПерсональныеДанные.Attribute.БрачныйСтатус" id="ae09bd24-1dcd-4ffa-ad8e-77dea7e71389"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудник" id="fa1c767b-8196-4522-8b0f-a49769bb43e8" configVersion="c16376090ba99246ac1d25fa2b15c0d800000000">
+			<Metadata name="Catalog.Сотрудник.Attribute.Пароль" id="056b47ca-d293-40d9-b21f-5037494eb400"/>
+			<Metadata name="Catalog.Сотрудник.Attribute.Роль" id="1e087a68-ebfd-45e2-956e-07ecd8e918f8"/>
+			<Metadata name="Catalog.Сотрудник.Attribute.Логин" id="ad96f4e9-9f72-44b6-bd26-c18f6c736f83"/>
+		</Metadata>
+		<Metadata name="Catalog.СоциальныеДанные" id="72b5aa91-4f44-48fc-a746-269afe12f0f9" configVersion="93646024199a0a46a161697716df41ea00000000">
+			<Metadata name="Catalog.СоциальныеДанные.Attribute.Код_СправочникаОбразование" id="d246bfde-6620-474b-8643-e4d40697c8ad"/>
+			<Metadata name="Catalog.СоциальныеДанные.Attribute.СоциальныйСтатус" id="ec81e0fc-72c1-4a35-8e22-f6abca3b67aa"/>
+			<Metadata name="Catalog.СоциальныеДанные.Attribute.Код_СправочникаРабота" id="fa847dbd-f4db-4248-8c4f-4245fc7d66f8"/>
+		</Metadata>
+		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="e223dece78b94944b35f63fa6544756e00000000"/>
+		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="b6ef5df35ac85548906211730afaccbc00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="9c6e18ce6408564b99aa8da997d0b0ba00000000"/>
+		<Metadata name="Language.Русский" id="4732c367-0320-41ab-876d-0be140c5b930" configVersion="aed67b6998ef5c429778c9a1f0aaaa8b00000000"/>
+		<Metadata name="Role.Админ" id="f9c31b5b-a81b-4f78-90f3-88653e95ed3f" configVersion="569394d45813cc40a5a08d9cce1d8f2900000000"/>
+		<Metadata name="Role.Админ.Rights" id="f9c31b5b-a81b-4f78-90f3-88653e95ed3f.0" configVersion="17c177d9235cfb489f46d047679c0b7000000000"/>
+		<Metadata name="Role.Сотрудник" id="a16c2d35-3f51-41e7-8896-6b0a11d1267b" configVersion="0ccd089c1ac5e648a77950af71257fd100000000"/>
+		<Metadata name="Role.Сотрудник.Rights" id="a16c2d35-3f51-41e7-8896-6b0a11d1267b.0" configVersion="31803150be41824d8cdb469fdb963bf700000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
