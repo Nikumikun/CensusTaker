@@ -69,11 +69,7 @@
 		</Metadata>
 		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="e223dece78b94944b35f63fa6544756e00000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="b6ef5df35ac85548906211730afaccbc00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="9c6e18ce6408564b99aa8da997d0b0ba00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="bc97213d1ccd9f49a68d0d34646f4a6700000000"/>
 		<Metadata name="Language.Русский" id="4732c367-0320-41ab-876d-0be140c5b930" configVersion="aed67b6998ef5c429778c9a1f0aaaa8b00000000"/>
-		<Metadata name="Role.Админ" id="f9c31b5b-a81b-4f78-90f3-88653e95ed3f" configVersion="569394d45813cc40a5a08d9cce1d8f2900000000"/>
-		<Metadata name="Role.Админ.Rights" id="f9c31b5b-a81b-4f78-90f3-88653e95ed3f.0" configVersion="17c177d9235cfb489f46d047679c0b7000000000"/>
-		<Metadata name="Role.Сотрудник" id="a16c2d35-3f51-41e7-8896-6b0a11d1267b" configVersion="0ccd089c1ac5e648a77950af71257fd100000000"/>
-		<Metadata name="Role.Сотрудник.Rights" id="a16c2d35-3f51-41e7-8896-6b0a11d1267b.0" configVersion="31803150be41824d8cdb469fdb963bf700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

@@ -215,8 +215,6 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Role>Админ</Role>
-			<Role>Сотрудник</Role>
 			<CommonForm>ОкноАвторизации</CommonForm>
 			<Catalog>ДанныеОбАдресе</Catalog>
 			<Catalog>Сотрудник</Catalog>
