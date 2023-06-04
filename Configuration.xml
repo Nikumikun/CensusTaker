@@ -220,13 +220,14 @@
 			<Catalog>Сотрудник</Catalog>
 			<Catalog>Вопросы</Catalog>
 			<Catalog>ПерсональныеДанные</Catalog>
-			<Catalog>ДанныеОбНациональность</Catalog>
-			<Catalog>ДанныеОбСемье</Catalog>
-			<Catalog>ДанныеОбСтране</Catalog>
+			<Catalog>ДанныеОНациональность</Catalog>
+			<Catalog>ДанныеОСемье</Catalog>
+			<Catalog>ДанныеОСтране</Catalog>
 			<Catalog>ДанныеОРаботе</Catalog>
-			<Catalog>ДанныеОбОбразовании</Catalog>
+			<Catalog>ДанныеООбразовании</Catalog>
 			<Catalog>СоциальныеДанные</Catalog>
 			<Catalog>ДанныеОГражданине</Catalog>
+			<Document>ДобавлениеДанныхГражданином</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

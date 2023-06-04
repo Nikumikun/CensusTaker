@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<Catalog uuid="c7ec3491-e96e-4748-8f8d-cb93bb8d6326">
+	<Catalog uuid="3d2392a5-5f7e-4730-95b9-0f5c2eb1a52d">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ДанныеОбСемье" category="Object">
-				<xr:TypeId>dcee48e3-addf-4329-b449-42935cab69e5</xr:TypeId>
-				<xr:ValueId>881795ba-7d55-4dc5-a782-c1d26254e6d4</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ДанныеООбразовании" category="Object">
+				<xr:TypeId>069c849a-ceed-4457-afb5-a7f5bade2b0b</xr:TypeId>
+				<xr:ValueId>4d6b4b97-bb24-439e-9d1b-98f48c310019</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ДанныеОбСемье" category="Ref">
-				<xr:TypeId>cef43e00-9f29-4407-9d9a-a1f7407d62ce</xr:TypeId>
-				<xr:ValueId>c515ae95-e84b-4398-acf1-dd1bff8451ec</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ДанныеООбразовании" category="Ref">
+				<xr:TypeId>64e47d2c-9890-4112-8a73-0ac4e0cc2f14</xr:TypeId>
+				<xr:ValueId>9d4e0f03-e174-44c7-8c50-2c91fcad2b21</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ДанныеОбСемье" category="Selection">
-				<xr:TypeId>d7bf5640-e477-43cb-aa2b-3010550057c9</xr:TypeId>
-				<xr:ValueId>1a2464bb-ec3e-42db-b4b4-c771ab4f10c3</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ДанныеООбразовании" category="Selection">
+				<xr:TypeId>a59d65f2-6138-4693-b90c-a4874e43c9ea</xr:TypeId>
+				<xr:ValueId>8029bd3b-6ee1-4d52-9fe9-7543676487ec</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ДанныеОбСемье" category="List">
-				<xr:TypeId>aceae05a-a1b4-450a-9e35-33e6b7606168</xr:TypeId>
-				<xr:ValueId>b1875a62-95d7-489c-9812-44018c77b388</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ДанныеООбразовании" category="List">
+				<xr:TypeId>50da90ad-6cb1-48a7-80f8-f89a53a298f2</xr:TypeId>
+				<xr:ValueId>5cafca9e-9011-42c1-8a04-5004ce2462d8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ДанныеОбСемье" category="Manager">
-				<xr:TypeId>a7389edd-9995-42ea-aca1-de19ed39ee4c</xr:TypeId>
-				<xr:ValueId>7698f95f-db5e-4a89-b184-052e0dd2d39b</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ДанныеООбразовании" category="Manager">
+				<xr:TypeId>092d7b34-c8fe-4e73-94d1-f6faed5e5a29</xr:TypeId>
+				<xr:ValueId>ac659489-d856-4f14-9b33-29fba7011144</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ДанныеОбСемье</Name>
+			<Name>ДанныеООбразовании</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Данные об семье</v8:content>
+					<v8:content>Данные о образовании</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -290,8 +290,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ДанныеОбСемье.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ДанныеОбСемье.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ДанныеООбразовании.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ДанныеООбразовании.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -323,13 +323,13 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="19c8ea1b-b200-4de1-81ae-83edf094f2c5">
+			<Attribute uuid="36d335a0-6276-43cf-a329-96e3561753fa">
 				<Properties>
-					<Name>ЧленСемьи</Name>
+					<Name>УровеньГрамотности</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Член семьи</v8:content>
+							<v8:content>Уровень грамотности</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -367,13 +367,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="16b6e005-15ef-4ca1-bdb6-87748aca575b">
+			<Attribute uuid="1aacc146-ad9d-4912-b322-230d2c87bbab">
 				<Properties>
-					<Name>СтатусЧленаСемьи</Name>
+					<Name>УровеньОбразования</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус члена семьи</v8:content>
+							<v8:content>Уровень образования</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -411,57 +411,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d1d3c3fc-dae9-4a71-9d5a-4388f1b63907">
+			<Attribute uuid="2351ea5b-0f99-4cf2-9384-5a3007cc638b">
 				<Properties>
-					<Name>Отношение</Name>
+					<Name>ОбразовательныеУчреждения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отношение</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="d7ba2b26-370b-4c48-b5e7-26d10dad7882">
-				<Properties>
-					<Name>СтепеньРодства</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Степень родства</v8:content>
+							<v8:content>Образовательные учреждения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

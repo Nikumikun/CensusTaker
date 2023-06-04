@@ -16,41 +16,41 @@
 			<Metadata name="Catalog.ДанныеОГражданине.Attribute.ФИО" id="e33ee348-815c-450b-8b1c-ab970233ced3"/>
 			<Metadata name="Catalog.ДанныеОГражданине.Attribute.Код_СправочникаДанныеСемьи" id="f87f38e0-72f3-416b-92df-ee67f2ff6e4f"/>
 		</Metadata>
+		<Metadata name="Catalog.ДанныеОНациональность" id="527428dc-afee-46c2-aafa-00df85f7dfc9" configVersion="214cf9de672ab34aa25a3b1c0342072300000000">
+			<Metadata name="Catalog.ДанныеОНациональность.Attribute.ПервыйЯзык" id="0b4812f0-3341-49c1-b003-5ec205d66aed"/>
+			<Metadata name="Catalog.ДанныеОНациональность.Attribute.ДругиеЯзыки" id="22aa3145-2451-4c93-bc1e-57be1a254e05"/>
+			<Metadata name="Catalog.ДанныеОНациональность.Attribute.Религия" id="4b034af6-e63d-4a4f-a149-88c969ad4fe6"/>
+			<Metadata name="Catalog.ДанныеОНациональность.Attribute.Национальность" id="e3995320-0db6-4f01-a7fa-a101856193ab"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеООбразовании" id="3d2392a5-5f7e-4730-95b9-0f5c2eb1a52d" configVersion="057a55e7d10ac74cab3ac9fc9f4c9a2700000000">
+			<Metadata name="Catalog.ДанныеООбразовании.Attribute.УровеньОбразования" id="1aacc146-ad9d-4912-b322-230d2c87bbab"/>
+			<Metadata name="Catalog.ДанныеООбразовании.Attribute.ОбразовательныеУчреждения" id="2351ea5b-0f99-4cf2-9384-5a3007cc638b"/>
+			<Metadata name="Catalog.ДанныеООбразовании.Attribute.УровеньГрамотности" id="36d335a0-6276-43cf-a329-96e3561753fa"/>
+		</Metadata>
 		<Metadata name="Catalog.ДанныеОРаботе" id="bdf9ec60-cffa-43c0-8f55-69311e45f50d" configVersion="1f38fa962f213c40aae1446e087380fd00000000">
 			<Metadata name="Catalog.ДанныеОРаботе.Attribute.СтатусЭкономическойАктичности" id="343453f9-70d4-4c54-a737-43acb4cb908d"/>
 			<Metadata name="Catalog.ДанныеОРаботе.Attribute.СтатусВозможнойРаботоспособности" id="d2f52448-2639-4876-9bd2-5f947303ea06"/>
 			<Metadata name="Catalog.ДанныеОРаботе.Attribute.Работа" id="f5268ac3-1bed-4c93-b342-2dd70571e661"/>
 			<Metadata name="Catalog.ДанныеОРаботе.Attribute.РодЗанятий" id="ffd1975c-77ae-4427-b9fb-361c0b855742"/>
 		</Metadata>
-		<Metadata name="Catalog.ДанныеОбАдресе" id="b845c4f5-dcf6-4420-b60e-8e76822fb8b7" configVersion="759295d3d51ead43928b1a95926c30b800000000">
+		<Metadata name="Catalog.ДанныеОСемье" id="c7ec3491-e96e-4748-8f8d-cb93bb8d6326" configVersion="a5fdb1f05422ba47bd97fb3376ac6e0000000000">
+			<Metadata name="Catalog.ДанныеОСемье.Attribute.СтатусЧленаСемьи" id="16b6e005-15ef-4ca1-bdb6-87748aca575b"/>
+			<Metadata name="Catalog.ДанныеОСемье.Attribute.ЧленСемьи" id="19c8ea1b-b200-4de1-81ae-83edf094f2c5"/>
+			<Metadata name="Catalog.ДанныеОСемье.Attribute.Отношение" id="d1d3c3fc-dae9-4a71-9d5a-4388f1b63907"/>
+			<Metadata name="Catalog.ДанныеОСемье.Attribute.СтепеньРодства" id="d7ba2b26-370b-4c48-b5e7-26d10dad7882"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОСтране" id="d3b13651-6a32-4e50-bb95-6d1f3013164d" configVersion="360f8bf8b1719b4e8cf0c13e686e491800000000">
+			<Metadata name="Catalog.ДанныеОСтране.Attribute.ДатаМиграции" id="19856ef9-f173-4e0b-a299-34d6ad51870e"/>
+			<Metadata name="Catalog.ДанныеОСтране.Attribute.Гражданство" id="580184cc-f845-4f9b-be95-3fa7066a7db8"/>
+			<Metadata name="Catalog.ДанныеОСтране.Attribute.СтранаРождения" id="c8bf7642-78dc-4792-811f-35e970497d7f"/>
+		</Metadata>
+		<Metadata name="Catalog.ДанныеОбАдресе" id="b845c4f5-dcf6-4420-b60e-8e76822fb8b7" configVersion="212de926fbfa7b44879d68a4cb5ca2e000000000">
 			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Строение" id="08a7adfc-b65a-4567-bb05-73f94687734c"/>
 			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Регион" id="1844cb12-e261-411d-9026-6d4f0d968746"/>
 			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Дом" id="3cbf0c9c-a489-4f1d-b7b1-74e66c904531"/>
 			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Улица" id="62ea1556-f52f-4026-bf29-d91187cb2df6"/>
 			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.Область" id="7e6b0d48-dd71-46bb-9958-172cc8670909"/>
 			<Metadata name="Catalog.ДанныеОбАдресе.Attribute.НаселенныйПункт" id="eb9bf473-7aef-46d1-a9f3-968c165dbeda"/>
-		</Metadata>
-		<Metadata name="Catalog.ДанныеОбНациональность" id="527428dc-afee-46c2-aafa-00df85f7dfc9" configVersion="38f16c76fbe92a4194b62098a32a6a2f00000000">
-			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.ПервыйЯзык" id="0b4812f0-3341-49c1-b003-5ec205d66aed"/>
-			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.ДругиеЯзыки" id="22aa3145-2451-4c93-bc1e-57be1a254e05"/>
-			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.Религия" id="4b034af6-e63d-4a4f-a149-88c969ad4fe6"/>
-			<Metadata name="Catalog.ДанныеОбНациональность.Attribute.Национальность" id="e3995320-0db6-4f01-a7fa-a101856193ab"/>
-		</Metadata>
-		<Metadata name="Catalog.ДанныеОбОбразовании" id="3d2392a5-5f7e-4730-95b9-0f5c2eb1a52d" configVersion="4c91a6610401d04bbf029443f7d7bf0600000000">
-			<Metadata name="Catalog.ДанныеОбОбразовании.Attribute.УровеньОбразования" id="1aacc146-ad9d-4912-b322-230d2c87bbab"/>
-			<Metadata name="Catalog.ДанныеОбОбразовании.Attribute.ОбразовательныеУчреждения" id="2351ea5b-0f99-4cf2-9384-5a3007cc638b"/>
-			<Metadata name="Catalog.ДанныеОбОбразовании.Attribute.УровеньГрамотности" id="36d335a0-6276-43cf-a329-96e3561753fa"/>
-		</Metadata>
-		<Metadata name="Catalog.ДанныеОбСемье" id="c7ec3491-e96e-4748-8f8d-cb93bb8d6326" configVersion="bda20d365499f24cad644a8525bcbe5000000000">
-			<Metadata name="Catalog.ДанныеОбСемье.Attribute.СтатусЧленаСемьи" id="16b6e005-15ef-4ca1-bdb6-87748aca575b"/>
-			<Metadata name="Catalog.ДанныеОбСемье.Attribute.ЧленСемьи" id="19c8ea1b-b200-4de1-81ae-83edf094f2c5"/>
-			<Metadata name="Catalog.ДанныеОбСемье.Attribute.Отношение" id="d1d3c3fc-dae9-4a71-9d5a-4388f1b63907"/>
-			<Metadata name="Catalog.ДанныеОбСемье.Attribute.СтепеньРодства" id="d7ba2b26-370b-4c48-b5e7-26d10dad7882"/>
-		</Metadata>
-		<Metadata name="Catalog.ДанныеОбСтране" id="d3b13651-6a32-4e50-bb95-6d1f3013164d" configVersion="41bcafaf278c794ca9df8fd7232dabad00000000">
-			<Metadata name="Catalog.ДанныеОбСтране.Attribute.ДатаМиграции" id="19856ef9-f173-4e0b-a299-34d6ad51870e"/>
-			<Metadata name="Catalog.ДанныеОбСтране.Attribute.Гражданство" id="580184cc-f845-4f9b-be95-3fa7066a7db8"/>
-			<Metadata name="Catalog.ДанныеОбСтране.Attribute.СтранаРождения" id="c8bf7642-78dc-4792-811f-35e970497d7f"/>
 		</Metadata>
 		<Metadata name="Catalog.ПерсональныеДанные" id="16b5d8fb-2308-46f1-b406-5b81c334b81c" configVersion="6ee2c8554ebecd4f88b09ce90486d60900000000">
 			<Metadata name="Catalog.ПерсональныеДанные.Attribute.Пол" id="23dd25bb-40d6-43bc-bfd9-5256ca713f1d"/>
@@ -67,9 +67,15 @@
 			<Metadata name="Catalog.СоциальныеДанные.Attribute.СоциальныйСтатус" id="ec81e0fc-72c1-4a35-8e22-f6abca3b67aa"/>
 			<Metadata name="Catalog.СоциальныеДанные.Attribute.Код_СправочникаРабота" id="fa847dbd-f4db-4248-8c4f-4245fc7d66f8"/>
 		</Metadata>
-		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="e223dece78b94944b35f63fa6544756e00000000"/>
-		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="b6ef5df35ac85548906211730afaccbc00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="bc97213d1ccd9f49a68d0d34646f4a6700000000"/>
+		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="6403aa7ad34c544881570bd7be08620500000000"/>
+		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="7b1f59d4ecd89942a82b60094ed8341e00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="5f631656652db24f9db13f3b1ab5a80900000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="2f1c287d-02d8-4822-a8d7-a0a0108709c7.8" configVersion="a336b60a49a83b469c5cb76a44f191d500000000"/>
+		<Metadata name="Document.ДобавлениеДанныхГражданином" id="43bc54e0-9c90-4eb4-a9e3-1e4ef5534a74" configVersion="001b9c6b3760df4e824554c25e8125cf00000000">
+			<Metadata name="Document.ДобавлениеДанныхГражданином.Attribute.ИмяДокумента" id="c13dfcca-f587-4385-afea-6909de5e2dd4"/>
+		</Metadata>
+		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином" id="f864e255-106a-46fe-9864-7d4492ffea96" configVersion="3f9e47d806e43a449e2408898d0b068400000000"/>
+		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином.Form" id="f864e255-106a-46fe-9864-7d4492ffea96.0" configVersion="1310ca1d8a769a4e8b687b5f8fd34ef300000000"/>
 		<Metadata name="Language.Русский" id="4732c367-0320-41ab-876d-0be140c5b930" configVersion="aed67b6998ef5c429778c9a1f0aaaa8b00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

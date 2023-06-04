@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<Catalog uuid="3d2392a5-5f7e-4730-95b9-0f5c2eb1a52d">
+	<Catalog uuid="527428dc-afee-46c2-aafa-00df85f7dfc9">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ДанныеОбОбразовании" category="Object">
-				<xr:TypeId>069c849a-ceed-4457-afb5-a7f5bade2b0b</xr:TypeId>
-				<xr:ValueId>4d6b4b97-bb24-439e-9d1b-98f48c310019</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ДанныеОНациональность" category="Object">
+				<xr:TypeId>e77ffbe7-744c-4d3e-b7f4-cc97441c6f4e</xr:TypeId>
+				<xr:ValueId>99d03a1c-2812-4de2-bc69-531dbdfb0d79</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ДанныеОбОбразовании" category="Ref">
-				<xr:TypeId>64e47d2c-9890-4112-8a73-0ac4e0cc2f14</xr:TypeId>
-				<xr:ValueId>9d4e0f03-e174-44c7-8c50-2c91fcad2b21</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ДанныеОНациональность" category="Ref">
+				<xr:TypeId>a48b6a62-04a9-45c3-8540-7e1ccb2ecc1b</xr:TypeId>
+				<xr:ValueId>f387441c-f233-4771-8225-b96892392f46</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ДанныеОбОбразовании" category="Selection">
-				<xr:TypeId>a59d65f2-6138-4693-b90c-a4874e43c9ea</xr:TypeId>
-				<xr:ValueId>8029bd3b-6ee1-4d52-9fe9-7543676487ec</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ДанныеОНациональность" category="Selection">
+				<xr:TypeId>fe132c4c-e5d1-4484-b351-51c5ed6dd415</xr:TypeId>
+				<xr:ValueId>69388a64-ee70-4a2a-b9b0-c8f258608ce4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ДанныеОбОбразовании" category="List">
-				<xr:TypeId>50da90ad-6cb1-48a7-80f8-f89a53a298f2</xr:TypeId>
-				<xr:ValueId>5cafca9e-9011-42c1-8a04-5004ce2462d8</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ДанныеОНациональность" category="List">
+				<xr:TypeId>94096a02-325e-40c3-9ed3-81c347be026b</xr:TypeId>
+				<xr:ValueId>da4d1a09-5b51-4e5a-a178-f96524702b44</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ДанныеОбОбразовании" category="Manager">
-				<xr:TypeId>092d7b34-c8fe-4e73-94d1-f6faed5e5a29</xr:TypeId>
-				<xr:ValueId>ac659489-d856-4f14-9b33-29fba7011144</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ДанныеОНациональность" category="Manager">
+				<xr:TypeId>a517f3b1-d190-453a-9f77-e95ad0f52a99</xr:TypeId>
+				<xr:ValueId>f7cc4dda-102f-4ab6-81d6-570415487c53</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ДанныеОбОбразовании</Name>
+			<Name>ДанныеОНациональность</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Данные об образовании</v8:content>
+					<v8:content>Данные о национальность</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -290,8 +290,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ДанныеОбОбразовании.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ДанныеОбОбразовании.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ДанныеОНациональность.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ДанныеОНациональность.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -323,20 +323,108 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="36d335a0-6276-43cf-a329-96e3561753fa">
+			<Attribute uuid="e3995320-0db6-4f01-a7fa-a101856193ab">
 				<Properties>
-					<Name>УровеньГрамотности</Name>
+					<Name>Национальность</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Уровень грамотности</v8:content>
+							<v8:content>Национальность</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0b4812f0-3341-49c1-b003-5ec205d66aed">
+				<Properties>
+					<Name>ПервыйЯзык</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Первый язык</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4b034af6-e63d-4a4f-a149-88c969ad4fe6">
+				<Properties>
+					<Name>Религия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Религия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -367,57 +455,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1aacc146-ad9d-4912-b322-230d2c87bbab">
+			<Attribute uuid="22aa3145-2451-4c93-bc1e-57be1a254e05">
 				<Properties>
-					<Name>УровеньОбразования</Name>
+					<Name>ДругиеЯзыки</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Уровень образования</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="2351ea5b-0f99-4cf2-9384-5a3007cc638b">
-				<Properties>
-					<Name>ОбразовательныеУчреждения</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Образовательные учреждения</v8:content>
+							<v8:content>Другие языки</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

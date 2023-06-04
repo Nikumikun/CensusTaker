@@ -538,7 +538,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ДанныеОбСемье</v8:Type>
+						<v8:Type>cfg:CatalogRef.ДанныеОСемье</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -578,7 +578,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ДанныеОбСтране</v8:Type>
+						<v8:Type>cfg:CatalogRef.ДанныеОСтране</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -618,7 +618,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ДанныеОбНациональность</v8:Type>
+						<v8:Type>cfg:CatalogRef.ДанныеОНациональность</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
