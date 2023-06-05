@@ -22,6 +22,7 @@
 				</InputField>
 				<InputField name="ПолеПароля" id="4">
 					<DataPath>Пароль</DataPath>
+					<PasswordMode>true</PasswordMode>
 					<ContextMenu name="ПолеПароляКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ПолеПароляРасширеннаяПодсказка" id="6"/>
 				</InputField>

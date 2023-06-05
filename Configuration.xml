@@ -216,6 +216,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonForm>ОкноАвторизации</CommonForm>
+			<CommonForm>МенюСотрудника</CommonForm>
+			<CommonForm>МенюАдмина</CommonForm>
 			<Catalog>ДанныеОбАдресе</Catalog>
 			<Catalog>Сотрудник</Catalog>
 			<Catalog>Вопросы</Catalog>
