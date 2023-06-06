@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<Document uuid="43bc54e0-9c90-4eb4-a9e3-1e4ef5534a74">
+	<Document uuid="42668471-275d-47a8-a3fd-6373e667af43">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ДобавлениеДанныхГражданином" category="Object">
-				<xr:TypeId>00bf3a7e-42c9-43d8-83ee-d35e810f9515</xr:TypeId>
-				<xr:ValueId>a4ef6df1-bc9c-40ad-8df4-0078679cbff2</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.УдалениеДанных" category="Object">
+				<xr:TypeId>a7df794a-90dd-4e2f-9eb5-0eca8295c4fd</xr:TypeId>
+				<xr:ValueId>927226f6-abf2-46a8-8816-4c49c4608464</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ДобавлениеДанныхГражданином" category="Ref">
-				<xr:TypeId>f50cfe43-3e9f-4031-a481-3d24eab3369f</xr:TypeId>
-				<xr:ValueId>7450564c-7258-4809-9338-f389c209ddd3</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.УдалениеДанных" category="Ref">
+				<xr:TypeId>90e7f2f6-a0ce-409f-9f29-31df559e0158</xr:TypeId>
+				<xr:ValueId>a4eee0a0-dfe1-45ea-a4a8-ea932cfd1e00</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ДобавлениеДанныхГражданином" category="Selection">
-				<xr:TypeId>c5f02e76-2cb0-4e1c-85d3-0784298bf6ff</xr:TypeId>
-				<xr:ValueId>cbcefc93-3336-4f59-b957-232ce924cea4</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.УдалениеДанных" category="Selection">
+				<xr:TypeId>5b6a19c1-3340-44a5-b65a-62e3e21c7b0b</xr:TypeId>
+				<xr:ValueId>5bc79a87-3282-4f9b-a97d-ad012b638271</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ДобавлениеДанныхГражданином" category="List">
-				<xr:TypeId>902dc9b0-261f-4ca1-9c81-fcd49228714c</xr:TypeId>
-				<xr:ValueId>6c67fd7b-61c0-4f21-9445-45a5a3184c4f</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.УдалениеДанных" category="List">
+				<xr:TypeId>bb662f4d-230b-4d83-8442-8ea075200113</xr:TypeId>
+				<xr:ValueId>a51ce2e3-a135-4554-b459-100dba9431c8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ДобавлениеДанныхГражданином" category="Manager">
-				<xr:TypeId>e4e3c17a-eb27-4d55-b715-55803380e11c</xr:TypeId>
-				<xr:ValueId>ddc3d7f1-c877-4803-b6c6-0c813220f6a6</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.УдалениеДанных" category="Manager">
+				<xr:TypeId>5fd410c5-fc0b-45eb-9c58-d5e3d76932e4</xr:TypeId>
+				<xr:ValueId>3308edea-5dda-49bd-b8fa-fd1caba4f8a5</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ДобавлениеДанныхГражданином</Name>
+			<Name>УдалениеДанных</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Добавление данных гражданином</v8:content>
+					<v8:content>Удаление данных</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,13 +43,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ДобавлениеДанныхГражданином.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.УдалениеДанных.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -78,7 +78,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="c13dfcca-f587-4385-afea-6909de5e2dd4">
+			<Attribute uuid="df360380-a6f3-4c5c-a19c-432189d7b0e2">
 				<Properties>
 					<Name>ИмяДокумента</Name>
 					<Synonym>
@@ -121,13 +121,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="736a13e2-9307-466d-8485-e4b986418fd4">
+			<Attribute uuid="6f977a57-aecc-4e13-8e34-3443d4300e07">
 				<Properties>
-					<Name>Добавлен</Name>
+					<Name>Удален</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Добавлен</v8:content>
+							<v8:content>Удален</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -149,7 +149,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string">Гражданин</FillValue>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -164,18 +164,22 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1ccd4d40-a61f-4f4b-a04d-2c43c4e21fce">
+			<Attribute uuid="cd70dc95-9fbb-4817-8d17-b6341fd1eb46">
 				<Properties>
-					<Name>СсылкаНаГражданина</Name>
+					<Name>Гражданин</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ссылка на гражданина</v8:content>
+							<v8:content>Гражданин</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ДанныеОГражданине</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -188,7 +192,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -203,7 +207,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>ФормаДобавленияДанныхГражданином</Form>
+			<Form>ФормаУдаления</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

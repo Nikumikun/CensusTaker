@@ -155,7 +155,7 @@
 						<Button name="КнопкаСохранить" id="78">
 							<Type>UsualButton</Type>
 							<HorizontalStretch>true</HorizontalStretch>
-							<CommandName>Form.Command.СохранитьБД</CommandName>
+							<CommandName>Form.Command.СохранитьИсторию</CommandName>
 							<ExtendedTooltip name="КнопкаСохранитьРасширеннаяПодсказка" id="79"/>
 						</Button>
 						<Button name="КнопкаСоздатьСотрудника" id="80">
@@ -334,17 +334,17 @@
 			</ToolTip>
 			<Action>ПоискДанных</Action>
 		</Command>
-		<Command name="СохранитьБД" id="10">
+		<Command name="СохранитьИсторию" id="10">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить БД</v8:content>
+					<v8:content>Сохранить историю</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить БД</v8:content>
+					<v8:content>Сохранить историю</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьБД</Action>

@@ -33,7 +33,12 @@
 		</InternalInfo>
 		<Properties>
 			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приложение для переписи граждан</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_22</ConfigurationExtensionCompatibilityMode>
@@ -202,7 +207,12 @@
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
-			<Copyright/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коровин Н.В.</v8:content>
+				</v8:item>
+			</Copyright>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -230,6 +240,8 @@
 			<Catalog>СоциальныеДанные</Catalog>
 			<Catalog>ДанныеОГражданине</Catalog>
 			<Document>ДобавлениеДанныхГражданином</Document>
+			<Document>ВыгрузкаДанных</Document>
+			<Document>УдалениеДанных</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
