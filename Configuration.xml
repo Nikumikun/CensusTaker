@@ -242,6 +242,7 @@
 			<Document>ДобавлениеДанныхГражданином</Document>
 			<Document>ВыгрузкаДанных</Document>
 			<Document>УдалениеДанных</Document>
+			<Document>ИзменениеДанных</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

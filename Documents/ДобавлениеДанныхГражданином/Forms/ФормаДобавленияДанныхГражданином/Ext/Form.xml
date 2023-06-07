@@ -8,6 +8,7 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="1">
+			<HorizontalStretch>true</HorizontalStretch>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
 			<ChildItems>
@@ -20,6 +21,12 @@
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.Сохранить</CommandName>
 					<ExtendedTooltip name="СохранениеРасширеннаяПодсказка" id="9"/>
+				</Button>
+				<Button name="КнопкаМеню" id="124">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.Меню</CommandName>
+					<ExtendedTooltip name="КнопкаМенюРасширеннаяПодсказка" id="125"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -879,6 +886,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Сохранить</Action>
+		</Command>
+		<Command name="Меню" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Меню</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Меню</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Меню</Action>
 		</Command>
 	</Commands>
 </Form>
