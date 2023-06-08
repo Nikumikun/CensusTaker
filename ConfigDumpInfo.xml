@@ -69,8 +69,8 @@
 		</Metadata>
 		<Metadata name="CommonForm.МенюАдмина" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0" configVersion="f07fecfc85dd9c488ab518dc1df751ee00000000"/>
 		<Metadata name="CommonForm.МенюАдмина.Form" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0.0" configVersion="38ab26612e919b4b8604ac47caec9f2500000000"/>
-		<Metadata name="CommonForm.МенюСотрудника" id="a08ae073-21d4-463d-aa44-0d9134dd6d58" configVersion="a151e0706695554297713aed2ce2563c00000000"/>
-		<Metadata name="CommonForm.МенюСотрудника.Form" id="a08ae073-21d4-463d-aa44-0d9134dd6d58.0" configVersion="b9ee4b884bcdc44abaac83da5b84eac900000000"/>
+		<Metadata name="CommonForm.МенюСотрудника" id="a08ae073-21d4-463d-aa44-0d9134dd6d58" configVersion="d7e86fe9549c4b4da8e7ac0ec555512500000000"/>
+		<Metadata name="CommonForm.МенюСотрудника.Form" id="a08ae073-21d4-463d-aa44-0d9134dd6d58.0" configVersion="27255383fc9b414bbd43285f41a4367900000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="d39e545cfe52b548af2a88658bcaa89200000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="acea0902b801e54e9aa9a441744327d300000000"/>
 		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="2c5e0a3b234c1e41972bddd7019c21f400000000"/>
@@ -81,18 +81,18 @@
 			<Metadata name="Document.ДобавлениеДанныхГражданином.Attribute.Добавлен" id="736a13e2-9307-466d-8485-e4b986418fd4"/>
 			<Metadata name="Document.ДобавлениеДанныхГражданином.Attribute.ИмяДокумента" id="c13dfcca-f587-4385-afea-6909de5e2dd4"/>
 		</Metadata>
-		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином" id="f864e255-106a-46fe-9864-7d4492ffea96" configVersion="9a19e731babb7848b562b65a668b511100000000"/>
-		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином.Form" id="f864e255-106a-46fe-9864-7d4492ffea96.0" configVersion="8fa33a892d70ff49a32e99ff99b5628200000000"/>
+		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином" id="f864e255-106a-46fe-9864-7d4492ffea96" configVersion="65616fa79c20d148b1360a532bd0a9bc00000000"/>
+		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином.Form" id="f864e255-106a-46fe-9864-7d4492ffea96.0" configVersion="761a0434a7800542a9446e4524ec137500000000"/>
 		<Metadata name="Document.ИзменениеДанных" id="7b0cdab4-78cb-42f6-bca1-ce7ef72d02b5" configVersion="546bf51ed312db4eb8ac2d3aa3734fb800000000"/>
-		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d" configVersion="36a73acf9ae63044a545234ddc068bbd00000000"/>
-		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных.Form" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d.0" configVersion="42172bc24aa649429d7d464522df9a2900000000"/>
+		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d" configVersion="ca6ec3d54cdc454aac8f676e524a08a000000000"/>
+		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных.Form" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d.0" configVersion="1213a7c47cf4a94f845c5454bb6189d400000000"/>
 		<Metadata name="Document.УдалениеДанных" id="42668471-275d-47a8-a3fd-6373e667af43" configVersion="cf972241138950448d7b0d2dcc79a1f600000000">
 			<Metadata name="Document.УдалениеДанных.Attribute.Удален" id="6f977a57-aecc-4e13-8e34-3443d4300e07"/>
 			<Metadata name="Document.УдалениеДанных.Attribute.Гражданин" id="cd70dc95-9fbb-4817-8d17-b6341fd1eb46"/>
 			<Metadata name="Document.УдалениеДанных.Attribute.ИмяДокумента" id="df360380-a6f3-4c5c-a19c-432189d7b0e2"/>
 		</Metadata>
-		<Metadata name="Document.УдалениеДанных.Form.ФормаУдаления" id="96959575-beef-47c7-9bab-63f55a9a695a" configVersion="7a20523346cb044f921ed21330036e8a00000000"/>
-		<Metadata name="Document.УдалениеДанных.Form.ФормаУдаления.Form" id="96959575-beef-47c7-9bab-63f55a9a695a.0" configVersion="5911e63e33b75247a392f95eb7919cab00000000"/>
+		<Metadata name="Document.УдалениеДанных.Form.ФормаУдаления" id="96959575-beef-47c7-9bab-63f55a9a695a" configVersion="c60e96b289e0d246a23ceab2357e67ce00000000"/>
+		<Metadata name="Document.УдалениеДанных.Form.ФормаУдаления.Form" id="96959575-beef-47c7-9bab-63f55a9a695a.0" configVersion="d866159ebf611b45ad3471c579dfed3700000000"/>
 		<Metadata name="Language.Русский" id="4732c367-0320-41ab-876d-0be140c5b930" configVersion="aed67b6998ef5c429778c9a1f0aaaa8b00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
