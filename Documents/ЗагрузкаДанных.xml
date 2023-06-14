@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<Document uuid="2df7ce20-af75-45e2-bf63-366b390065ec">
+	<Document uuid="ac10416f-174c-4154-a8bb-74a09852e72e">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ВыгрузкаДанных" category="Object">
-				<xr:TypeId>d75a7655-eaf9-4664-8739-42e330dcaacf</xr:TypeId>
-				<xr:ValueId>826bdb64-72c9-4ec1-8684-58521ba88bd0</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ЗагрузкаДанных" category="Object">
+				<xr:TypeId>512383e5-83e9-41f7-8662-6e86056505dc</xr:TypeId>
+				<xr:ValueId>9947dcc5-48a8-435b-bd94-4d7a719d4e6c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ВыгрузкаДанных" category="Ref">
-				<xr:TypeId>60762be6-a350-4f9e-a60c-b3dbf4690829</xr:TypeId>
-				<xr:ValueId>d6d95f85-2eae-499f-9576-d554e7335df3</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ЗагрузкаДанных" category="Ref">
+				<xr:TypeId>96980bc2-3bec-4022-93c6-5d9604e69fbc</xr:TypeId>
+				<xr:ValueId>bff2d018-3d7f-4249-863f-49f865af5629</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ВыгрузкаДанных" category="Selection">
-				<xr:TypeId>90cfb711-7b7b-4ed7-94de-6aa8e63b2e81</xr:TypeId>
-				<xr:ValueId>4fe2d4dc-c121-4c08-97d0-26484e4d95b4</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ЗагрузкаДанных" category="Selection">
+				<xr:TypeId>fa4941cf-a07c-483b-9250-33778d30ebdc</xr:TypeId>
+				<xr:ValueId>a8d0a4f4-c079-4c2d-a682-a1121f05cfe9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ВыгрузкаДанных" category="List">
-				<xr:TypeId>13fb7bef-284d-43ea-bc0e-d2f7016a4c93</xr:TypeId>
-				<xr:ValueId>4112b267-2ef4-4def-9718-322e817d82c8</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ЗагрузкаДанных" category="List">
+				<xr:TypeId>865f4bff-bae1-4631-9ff2-c90aa2c8a286</xr:TypeId>
+				<xr:ValueId>7056ac64-681d-4a93-96ae-ec22df2a9082</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ВыгрузкаДанных" category="Manager">
-				<xr:TypeId>66f045e2-8a83-4b4b-8cc5-2c7a01f9d0d0</xr:TypeId>
-				<xr:ValueId>8d5a169a-373c-4ff6-b6f6-d245c9b192a9</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ЗагрузкаДанных" category="Manager">
+				<xr:TypeId>9f1406a2-4f32-4690-854c-acd45541b548</xr:TypeId>
+				<xr:ValueId>33c69c23-75a8-4266-a1c6-cca85edd702f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВыгрузкаДанных</Name>
+			<Name>ЗагрузкаДанных</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузка данных</v8:content>
+					<v8:content>Загрузка данных</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,7 +43,7 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ВыгрузкаДанных.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ЗагрузкаДанных.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -78,7 +78,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="7e4fc331-146e-4cb2-bfe2-37dfeef6305a">
+			<Attribute uuid="1ddeaf18-d7d1-4e91-9300-5204f4897332">
 				<Properties>
 					<Name>ИмяДокумента</Name>
 					<Synonym>
@@ -121,13 +121,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8f3def35-b17e-4b6c-9536-7666dcfde4c2">
+			<Attribute uuid="37c6b5a2-b714-48da-993d-10af294f23f3">
 				<Properties>
-					<Name>Выгрузил</Name>
+					<Name>Загрузил</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Выгрузил</v8:content>
+							<v8:content>Загрузил</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -164,23 +164,22 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="c9c811c0-4f58-4ebc-bc08-5b4375030fc7">
+			<Attribute uuid="bde7d03b-675d-45c4-b317-ee76adabe957">
 				<Properties>
-					<Name>КоличествоЗаписей</Name>
+					<Name>ЧислоЗаписей</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество записей</v8:content>
+							<v8:content>Число записей</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -193,7 +192,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -208,6 +207,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаЗагрузкаДанных</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

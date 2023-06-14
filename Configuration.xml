@@ -217,8 +217,8 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>DontUse</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<ModalityUseMode>Use</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_22</CompatibilityMode>
 			<DefaultConstantsForm/>
@@ -230,7 +230,7 @@
 			<CommonForm>МенюАдмина</CommonForm>
 			<Catalog>ДанныеОбАдресе</Catalog>
 			<Catalog>Сотрудник</Catalog>
-			<Catalog>Вопросы</Catalog>
+			<Catalog>ВопросыДляГражданина</Catalog>
 			<Catalog>ПерсональныеДанные</Catalog>
 			<Catalog>ДанныеОНациональность</Catalog>
 			<Catalog>ДанныеОСемье</Catalog>
@@ -243,6 +243,11 @@
 			<Document>ВыгрузкаДанных</Document>
 			<Document>УдалениеДанных</Document>
 			<Document>ИзменениеДанных</Document>
+			<Document>НайтиСовпадение</Document>
+			<Document>ЗагрузкаДанных</Document>
+			<Document>ПодсчетГраждан</Document>
+			<DataProcessor>СписокОбластей</DataProcessor>
+			<DataProcessor>СписокТаблиц</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

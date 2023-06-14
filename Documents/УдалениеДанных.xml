@@ -123,11 +123,11 @@
 			</Attribute>
 			<Attribute uuid="6f977a57-aecc-4e13-8e34-3443d4300e07">
 				<Properties>
-					<Name>Удален</Name>
+					<Name>Удалил</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Удален</v8:content>
+							<v8:content>Удалил</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

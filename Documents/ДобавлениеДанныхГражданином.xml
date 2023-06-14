@@ -123,11 +123,11 @@
 			</Attribute>
 			<Attribute uuid="736a13e2-9307-466d-8485-e4b986418fd4">
 				<Properties>
-					<Name>Добавлен</Name>
+					<Name>Добавил</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Добавлен</v8:content>
+							<v8:content>Добавил</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -170,7 +170,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ссылка на гражданина</v8:content>
+							<v8:content>Гражданин</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
