@@ -14,7 +14,6 @@
 			<ChildItems>
 				<LabelField name="ПолеФИОСотрудника" id="5">
 					<DataPath>ФИОСотрудника</DataPath>
-					<Enabled>false</Enabled>
 					<TitleLocation>None</TitleLocation>
 					<ContextMenu name="ПолеФИОСотрудникаКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="ПолеФИОСотрудникаРасширеннаяПодсказка" id="7"/>

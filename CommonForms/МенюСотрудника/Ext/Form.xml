@@ -373,7 +373,7 @@
 					<v8:content>Сохранить историю</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>СохранитьБД</Action>
+			<Action>СохранитьИсторию</Action>
 		</Command>
 	</Commands>
 </Form>

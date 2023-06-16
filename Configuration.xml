@@ -246,8 +246,14 @@
 			<Document>НайтиСовпадение</Document>
 			<Document>ЗагрузкаДанных</Document>
 			<Document>ПодсчетГраждан</Document>
+			<Document>ПоискГраждан</Document>
+			<Document>ВыводДругихДанных</Document>
+			<Document>СохранениеИстории</Document>
+			<Document>Авторизация</Document>
 			<DataProcessor>СписокОбластей</DataProcessor>
 			<DataProcessor>СписокТаблиц</DataProcessor>
+			<DataProcessor>ПодсчетГраждан</DataProcessor>
+			<DataProcessor>ВыводОстальныхДанных</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

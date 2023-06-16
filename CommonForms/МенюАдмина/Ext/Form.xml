@@ -27,7 +27,7 @@
 						</LabelField>
 						<Button name="КнопкаВыхода" id="12">
 							<Type>UsualButton</Type>
-							<HorizontalStretch>true</HorizontalStretch>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 							<CommandName>Form.Command.Выход</CommandName>
 							<ExtendedTooltip name="КнопкаВыходаРасширеннаяПодсказка" id="13"/>
 						</Button>
@@ -88,6 +88,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа7" id="30">
+							<Group>AlwaysHorizontal</Group>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="31"/>
 							<ChildItems>
@@ -109,47 +110,47 @@
 									<CommandName>Form.Command.ВыводДругихДанных</CommandName>
 									<ExtendedTooltip name="КнопкаВыводРасширеннаяПодсказка" id="37"/>
 								</Button>
-								<Table name="Таблица1" id="82">
-									<Representation>List</Representation>
-									<AutoInsertNewRow>true</AutoInsertNewRow>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
-									<DataPath>ДанныеГраждан</DataPath>
-									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="Таблица1КонтекстноеМеню" id="83"/>
-									<AutoCommandBar name="Таблица1КоманднаяПанель" id="84">
-										<Autofill>false</Autofill>
-									</AutoCommandBar>
-									<ExtendedTooltip name="Таблица1РасширеннаяПодсказка" id="85"/>
-									<SearchStringAddition name="Таблица1СтрокаПоиска" id="86">
-										<AdditionSource>
-											<Item>Таблица1</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="Таблица1СтрокаПоискаКонтекстноеМеню" id="87"/>
-										<ExtendedTooltip name="Таблица1СтрокаПоискаРасширеннаяПодсказка" id="88"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="Таблица1СостояниеПросмотра" id="89">
-										<AdditionSource>
-											<Item>Таблица1</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="Таблица1СостояниеПросмотраКонтекстноеМеню" id="90"/>
-										<ExtendedTooltip name="Таблица1СостояниеПросмотраРасширеннаяПодсказка" id="91"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="Таблица1УправлениеПоиском" id="92">
-										<AdditionSource>
-											<Item>Таблица1</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="Таблица1УправлениеПоискомКонтекстноеМеню" id="93"/>
-										<ExtendedTooltip name="Таблица1УправлениеПоискомРасширеннаяПодсказка" id="94"/>
-									</SearchControlAddition>
-								</Table>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
+				<Table name="Таблица1" id="82">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>ДанныеГраждан</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="Таблица1КонтекстноеМеню" id="83"/>
+					<AutoCommandBar name="Таблица1КоманднаяПанель" id="84">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="Таблица1РасширеннаяПодсказка" id="85"/>
+					<SearchStringAddition name="Таблица1СтрокаПоиска" id="86">
+						<AdditionSource>
+							<Item>Таблица1</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Таблица1СтрокаПоискаКонтекстноеМеню" id="87"/>
+						<ExtendedTooltip name="Таблица1СтрокаПоискаРасширеннаяПодсказка" id="88"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="Таблица1СостояниеПросмотра" id="89">
+						<AdditionSource>
+							<Item>Таблица1</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Таблица1СостояниеПросмотраКонтекстноеМеню" id="90"/>
+						<ExtendedTooltip name="Таблица1СостояниеПросмотраРасширеннаяПодсказка" id="91"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="Таблица1УправлениеПоиском" id="92">
+						<AdditionSource>
+							<Item>Таблица1</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="Таблица1УправлениеПоискомКонтекстноеМеню" id="93"/>
+						<ExtendedTooltip name="Таблица1УправлениеПоискомРасширеннаяПодсказка" id="94"/>
+					</SearchControlAddition>
+				</Table>
 				<UsualGroup name="Группа4" id="7">
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="8"/>
