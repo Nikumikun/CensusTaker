@@ -113,7 +113,7 @@
 						</UsualGroup>
 						<Table name="Таблица1" id="53">
 							<Representation>List</Representation>
-							<Enabled>false</Enabled>
+							<ReadOnly>true</ReadOnly>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>

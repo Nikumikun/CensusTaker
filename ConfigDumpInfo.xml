@@ -67,13 +67,13 @@
 			<Metadata name="Catalog.СоциальныеДанные.Attribute.СоциальныйСтатус" id="ec81e0fc-72c1-4a35-8e22-f6abca3b67aa"/>
 			<Metadata name="Catalog.СоциальныеДанные.Attribute.Код_СправочникаРабота" id="fa847dbd-f4db-4248-8c4f-4245fc7d66f8"/>
 		</Metadata>
-		<Metadata name="CommonForm.МенюАдмина" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0" configVersion="30def4b3509cc34f90a7ff7c622daa4e00000000"/>
-		<Metadata name="CommonForm.МенюАдмина.Form" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0.0" configVersion="e9c3a57af73cd7428d71e1c9e482755d00000000"/>
-		<Metadata name="CommonForm.МенюСотрудника" id="a08ae073-21d4-463d-aa44-0d9134dd6d58" configVersion="75b6a524c3ba294998a1d0ec61840aed00000000"/>
-		<Metadata name="CommonForm.МенюСотрудника.Form" id="a08ae073-21d4-463d-aa44-0d9134dd6d58.0" configVersion="ef933958c12bc14ba23692638c78d27700000000"/>
+		<Metadata name="CommonForm.МенюАдмина" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0" configVersion="41df1bdf44d01d4eb1f1b613fa7e103800000000"/>
+		<Metadata name="CommonForm.МенюАдмина.Form" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0.0" configVersion="9522bb0cbec4ba4792583f9daa43bc6000000000"/>
+		<Metadata name="CommonForm.МенюСотрудника" id="a08ae073-21d4-463d-aa44-0d9134dd6d58" configVersion="38835f55e1ab8249b1c03e4f56ff621e00000000"/>
+		<Metadata name="CommonForm.МенюСотрудника.Form" id="a08ae073-21d4-463d-aa44-0d9134dd6d58.0" configVersion="9199f48f1120974794f2e5bad9f62d3600000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="8c3fa8ab270f6f419e2351cad2320fc000000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="06bca886f1f4a444a004844623f82eef00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="52bbd250732697458218742ecf102e7f00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="440242038020004ebe2ed16ea85a0eec00000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="2f1c287d-02d8-4822-a8d7-a0a0108709c7.8" configVersion="0035d7630a1d55469d6558432b1599b500000000"/>
 		<Metadata name="DataProcessor.ВыводОстальныхДанных" id="721733e8-45de-4b55-9360-70189330c9f9" configVersion="5ca97905a5ce05478001b5aad76f467c00000000"/>
 		<Metadata name="DataProcessor.ВыводОстальныхДанных.Form.ФормаВыводаДругихДанных" id="da1d924d-78e2-4a97-84cc-173728995d98" configVersion="addf4fda41146b41bced7db5a36fbb5a00000000"/>
@@ -138,6 +138,13 @@
 		</Metadata>
 		<Metadata name="Document.ПоискГраждан.Form.ФормаПоискаДанных" id="9ed20ffc-62e1-4051-b883-23c540c5de81" configVersion="543cd2fb492fa047a740f83ef0a496c300000000"/>
 		<Metadata name="Document.ПоискГраждан.Form.ФормаПоискаДанных.Form" id="9ed20ffc-62e1-4051-b883-23c540c5de81.0" configVersion="a02db35761416e48bd5ba0a7349f1c0f00000000"/>
+		<Metadata name="Document.СозданиеСотрудника" id="d74cf99f-d804-4012-9c05-57a9245ab63b" configVersion="b8cf3791c1a40b4ca2cf0923c388b33500000000">
+			<Metadata name="Document.СозданиеСотрудника.Attribute.ИмяДокумента" id="74a5307c-e634-4493-9253-c9a59bf65825"/>
+			<Metadata name="Document.СозданиеСотрудника.Attribute.Создал" id="910fda9a-a20b-4f25-9bb6-0bb29321d7b5"/>
+			<Metadata name="Document.СозданиеСотрудника.Attribute.ЛогинНовогоСотрудника" id="d18c1bb2-0503-4734-86bd-b55b928d0337"/>
+		</Metadata>
+		<Metadata name="Document.СозданиеСотрудника.Form.ФормаСозданияСотрудника" id="6bf4da8b-25d7-4d4d-a8f5-e377c2966316" configVersion="196605d913f08e4e8e3feab938ec9fe100000000"/>
+		<Metadata name="Document.СозданиеСотрудника.Form.ФормаСозданияСотрудника.Form" id="6bf4da8b-25d7-4d4d-a8f5-e377c2966316.0" configVersion="7e56e92bb5cee44a8235fe5d31ef038600000000"/>
 		<Metadata name="Document.СохранениеИстории" id="c4f953d6-a7d4-4d02-8df8-ab3b54406d34" configVersion="f121361078c5f048a040afd3ff83684100000000">
 			<Metadata name="Document.СохранениеИстории.Attribute.ИмяДокумента" id="483d6bd0-822b-459e-b192-f32fdc009ded"/>
 			<Metadata name="Document.СохранениеИстории.Attribute.Сохранил" id="cd5a475c-5add-42a2-8016-9003fadc2402"/>

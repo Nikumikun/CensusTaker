@@ -250,6 +250,7 @@
 			<Document>ВыводДругихДанных</Document>
 			<Document>СохранениеИстории</Document>
 			<Document>Авторизация</Document>
+			<Document>СозданиеСотрудника</Document>
 			<DataProcessor>СписокОбластей</DataProcessor>
 			<DataProcessor>СписокТаблиц</DataProcessor>
 			<DataProcessor>ПодсчетГраждан</DataProcessor>
