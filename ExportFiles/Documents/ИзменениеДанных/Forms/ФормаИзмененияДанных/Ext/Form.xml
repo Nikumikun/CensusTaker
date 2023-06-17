@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoTitle>false</AutoTitle>
+	<ShowTitle>false</ShowTitle>
+	<ShowCloseButton>false</ShowCloseButton>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа6" id="131">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="132"/>
+			<ChildItems>
+				<InputField name="ПоискФИО" id="1">
+					<DataPath>ПоискФИО</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПоискФИОКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ПоискФИОРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<Button name="КнопкаНайти" id="129">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НайтиДанные</CommandName>
+					<ExtendedTooltip name="КнопкаНайтиРасширеннаяПодсказка" id="130"/>
+				</Button>
+				<LabelField name="ПолеСтатусПоиска" id="133">
+					<DataPath>СтатусПоиска</DataPath>
+					<Enabled>false</Enabled>
+					<TitleLocation>None</TitleLocation>
+					<Font ref="style:NormalTextFont" height="18" kind="StyleItem" scale="100"/>
+					<ContextMenu name="ПолеСтатусПоискаКонтекстноеМеню" id="134"/>
+					<ExtendedTooltip name="ПолеСтатусПоискаРасширеннаяПодсказка" id="135"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="4">
+			<HorizontalStretch>true</HorizontalStretch>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<InputField name="ПолеФИО" id="8">
+					<DataPath>ФИО</DataPath>
+					<ContextMenu name="ПолеФИОКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="ПолеФИОРасширеннаяПодсказка" id="10"/>
+				</InputField>
+				<Button name="Изменить" id="11">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Изменить</CommandName>
+					<ExtendedTooltip name="ИзменитьРасширеннаяПодсказка" id="12"/>
+				</Button>
+				<Button name="КнопкаМеню" id="13">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.Меню</CommandName>
+					<ExtendedTooltip name="КнопкаМенюРасширеннаяПодсказка" id="14"/>
+				</Button>
+				<Button name="КнопкаВыход" id="136">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.Выход</CommandName>
+					<ExtendedTooltip name="КнопкаВыходРасширеннаяПодсказка" id="137"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="6">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="15">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<UsualGroup name="Адрес" id="19">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Адрес</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Адрес</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="20"/>
+							<ChildItems>
+								<InputField name="ПолеОбласть" id="39">
+									<DataPath>Область</DataPath>
+									<ContextMenu name="ПолеОбластьКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="ПолеОбластьРасширеннаяПодсказка" id="41"/>
+								</InputField>
+								<InputField name="ПолеРегион" id="42">
+									<DataPath>Регион</DataPath>
+									<ContextMenu name="ПолеРегионКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="ПолеРегионРасширеннаяПодсказка" id="44"/>
+								</InputField>
+								<InputField name="ПолеНаселенныйПункт" id="45">
+									<DataPath>НаселенныйПункт</DataPath>
+									<ContextMenu name="ПолеНаселенныйПунктКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="ПолеНаселенныйПунктРасширеннаяПодсказка" id="47"/>
+								</InputField>
+								<InputField name="ПолеУлица" id="48">
+									<ContextMenu name="ПолеУлицаКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ПолеУлицаРасширеннаяПодсказка" id="50"/>
+								</InputField>
+								<UsualGroup name="Группа5" id="37">
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="38"/>
+									<ChildItems>
+										<InputField name="ПолеДом" id="51">
+											<DataPath>Дом</DataPath>
+											<ContextMenu name="ПолеДомКонтекстноеМеню" id="52"/>
+											<ExtendedTooltip name="ПолеДомРасширеннаяПодсказка" id="53"/>
+										</InputField>
+										<InputField name="ПолеСтроение" id="54">
+											<DataPath>Строение</DataPath>
+											<ContextMenu name="ПолеСтроениеКонтекстноеМеню" id="55"/>
+											<ExtendedTooltip name="ПолеСтроениеРасширеннаяПодсказка" id="56"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Миграция" id="21">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Миграция</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Миграция</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="МиграцияРасширеннаяПодсказка" id="22"/>
+							<ChildItems>
+								<InputField name="ПолеСтранаРождения" id="57">
+									<DataPath>СтранаРождения</DataPath>
+									<ContextMenu name="ПолеСтранаРожденияКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ПолеСтранаРожденияРасширеннаяПодсказка" id="59"/>
+								</InputField>
+								<InputField name="ПолеДатаМиграции" id="60">
+									<DataPath>ДатаМиграции</DataPath>
+									<ContextMenu name="ПолеДатаМиграцииКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="ПолеДатаМиграцииРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="ПолеГражданство" id="63">
+									<DataPath>Гражданство</DataPath>
+									<ContextMenu name="ПолеГражданствоКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="ПолеГражданствоРасширеннаяПодсказка" id="65"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ВопросыИОтветы" id="23">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вопросы и ответы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вопросы и ответы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ВопросыИОтветыРасширеннаяПодсказка" id="24"/>
+							<ChildItems>
+								<InputField name="ПолеВопросы" id="66">
+									<DataPath>Вопросы</DataPath>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ПолеВопросыКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ПолеВопросыРасширеннаяПодсказка" id="68"/>
+								</InputField>
+								<InputField name="ПолеОтветы" id="69">
+									<DataPath>Ответы</DataPath>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ПолеОтветыКонтекстноеМеню" id="70"/>
+									<ExtendedTooltip name="ПолеОтветыРасширеннаяПодсказка" id="71"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Образование" id="25">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Образование</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Образование</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ОбразованиеРасширеннаяПодсказка" id="26"/>
+							<ChildItems>
+								<InputField name="ПолеУровеньГрамотности" id="72">
+									<DataPath>УровеньГрамотности</DataPath>
+									<ContextMenu name="ПолеУровеньГрамотностиКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="ПолеУровеньГрамотностиРасширеннаяПодсказка" id="74"/>
+								</InputField>
+								<InputField name="ПолеУровеньОбразования" id="75">
+									<DataPath>УровеньОбразования</DataPath>
+									<ContextMenu name="ПолеУровеньОбразованияКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="ПолеУровеньОбразованияРасширеннаяПодсказка" id="77"/>
+								</InputField>
+								<InputField name="ПолеОбразовательныеУчреждения" id="78">
+									<DataPath>ОбразовательныеУчреждения</DataPath>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ПолеОбразовательныеУчрежденияКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="ПолеОбразовательныеУчрежденияРасширеннаяПодсказка" id="80"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="СоциальныеДанные" id="27">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Социальные данные</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Социальные данные</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="СоциальныеДанныеРасширеннаяПодсказка" id="28"/>
+							<ChildItems>
+								<InputField name="ПолеСоциальныйСтатус" id="81">
+									<DataPath>СоциальныйСтатус</DataPath>
+									<ContextMenu name="ПолеСоциальныйСтатусКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="ПолеСоциальныйСтатусРасширеннаяПодсказка" id="83"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа4" id="17">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<UsualGroup name="ПерсональныеДанные" id="29">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Персональные данные</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Персональные данные</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ПерсональныеДанныеРасширеннаяПодсказка" id="30"/>
+							<ChildItems>
+								<CheckBoxField name="ПолеПол" id="84">
+									<DataPath>Пол</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПолеПолКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ПолеПолРасширеннаяПодсказка" id="86"/>
+								</CheckBoxField>
+								<InputField name="ПолеВозраст" id="87">
+									<DataPath>Возраст</DataPath>
+									<ContextMenu name="ПолеВозрастКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="ПолеВозрастРасширеннаяПодсказка" id="89"/>
+								</InputField>
+								<InputField name="ПолеБрачныйСтатус" id="90">
+									<DataPath>БрачныйСтатус</DataPath>
+									<ContextMenu name="ПолеБрачныйСтатусКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="ПолеБрачныйСтатусРасширеннаяПодсказка" id="92"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Национальность" id="31">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Национальность</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Национальность</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="НациональностьРасширеннаяПодсказка" id="32"/>
+							<ChildItems>
+								<InputField name="ПолеНациональность" id="93">
+									<DataPath>Национальность</DataPath>
+									<ContextMenu name="ПолеНациональностьКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="ПолеНациональностьРасширеннаяПодсказка" id="95"/>
+								</InputField>
+								<InputField name="ПолеПервыйЯзык" id="96">
+									<DataPath>ПервыйЯзык</DataPath>
+									<ContextMenu name="ПолеПервыйЯзыкКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="ПолеПервыйЯзыкРасширеннаяПодсказка" id="98"/>
+								</InputField>
+								<InputField name="ПолеДругиеЯзыки" id="99">
+									<DataPath>ДругиеЯзыки</DataPath>
+									<ContextMenu name="ПолеДругиеЯзыкиКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ПолеДругиеЯзыкиРасширеннаяПодсказка" id="101"/>
+								</InputField>
+								<InputField name="ПолеРелигия" id="102">
+									<DataPath>Религия</DataPath>
+									<ContextMenu name="ПолеРелигияКонтекстноеМеню" id="103"/>
+									<ExtendedTooltip name="ПолеРелигияРасширеннаяПодсказка" id="104"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Работа" id="33">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Работа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Работа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="РаботаРасширеннаяПодсказка" id="34"/>
+							<ChildItems>
+								<InputField name="ПолеСтатусЭкономическойАктивности" id="105">
+									<DataPath>СтатусЭкономическойАктивности</DataPath>
+									<ContextMenu name="ПолеСтатусЭкономическойАктивностиКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="ПолеСтатусЭкономическойАктивностиРасширеннаяПодсказка" id="107"/>
+								</InputField>
+								<InputField name="ПолеРодЗанятий" id="108">
+									<DataPath>РодЗанятий</DataPath>
+									<ContextMenu name="ПолеРодЗанятийКонтекстноеМеню" id="109"/>
+									<ExtendedTooltip name="ПолеРодЗанятийРасширеннаяПодсказка" id="110"/>
+								</InputField>
+								<InputField name="ПолеРабота" id="111">
+									<DataPath>Работа</DataPath>
+									<ContextMenu name="ПолеРаботаКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="ПолеРаботаРасширеннаяПодсказка" id="113"/>
+								</InputField>
+								<InputField name="ПолеСтатусВозможнойРаботоспособности" id="114">
+									<DataPath>СтатусВозможнойРаботоспособности</DataPath>
+									<ContextMenu name="ПолеСтатусВозможнойРаботоспособностиКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="ПолеСтатусВозможнойРаботоспособностиРасширеннаяПодсказка" id="116"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Семья" id="35">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Семья</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Семья</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="СемьяРасширеннаяПодсказка" id="36"/>
+							<ChildItems>
+								<InputField name="ПолеЧленСемьи" id="117">
+									<DataPath>ЧленСемьи</DataPath>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ПолеЧленСемьиКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="ПолеЧленСемьиРасширеннаяПодсказка" id="119"/>
+								</InputField>
+								<InputField name="ПолеСтатусЧленаСемьи" id="120">
+									<DataPath>СтатусЧленаСемьи</DataPath>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ПолеСтатусЧленаСемьиКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="ПолеСтатусЧленаСемьиРасширеннаяПодсказка" id="122"/>
+								</InputField>
+								<InputField name="ПолеОтношение" id="123">
+									<DataPath>Отношение</DataPath>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ПолеОтношениеКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="ПолеОтношениеРасширеннаяПодсказка" id="125"/>
+								</InputField>
+								<InputField name="ПолеСтепеньРодства" id="126">
+									<DataPath>СтепеньРодства</DataPath>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="ПолеСтепеньРодстваКонтекстноеМеню" id="127"/>
+									<ExtendedTooltip name="ПолеСтепеньРодстваРасширеннаяПодсказка" id="128"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПоискФИО" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск ФИО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ФИО" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФИО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Область" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Область</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Регион" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регион</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>25</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НаселенныйПункт" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Населенный пункт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Улица" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Улица</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Дом" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дом</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>3</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Строение" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>3</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтранаРождения" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страна рождения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаМиграции" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата миграции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Гражданство" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гражданство</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Вопросы" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопросы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Ответы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="УровеньГрамотности" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уровень грамотности</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="УровеньОбразования" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уровень образования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбразовательныеУчреждения" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Образовательные учреждения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СоциальныйСтатус" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Социальный статус</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пол" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пол</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Возраст" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Возраст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БрачныйСтатус" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Брачный статус</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>25</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Национальность" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Национальность</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПервыйЯзык" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первый язык</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДругиеЯзыки" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Другие языки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Религия" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Религия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>15</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусЭкономическойАктивности" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус экономической активности</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РодЗанятий" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Род занятий</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Работа" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>25</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусВозможнойРаботоспособности" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус возможной работоспособности</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЧленСемьи" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Член семьи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусЧленаСемьи" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус члена семьи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Отношение" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отношение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтепеньРодства" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Степень родства</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Логин" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусПоиска" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус поиска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ФИО1" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФИО1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Изменить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Изменить</Action>
+		</Command>
+		<Command name="Меню" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Меню</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Меню</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Меню</Action>
+		</Command>
+		<Command name="НайтиДанные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НайтиДанные</Action>
+		</Command>
+		<Command name="Выход" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выход</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выход</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Выход</Action>
+		</Command>
+	</Commands>
+</Form>

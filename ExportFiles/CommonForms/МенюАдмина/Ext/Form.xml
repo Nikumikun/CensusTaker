@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<ShowTitle>false</ShowTitle>
+	<ShowCloseButton>false</ShowCloseButton>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="1">
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="3">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<LabelField name="ПолеФИОАдмин" id="9">
+							<DataPath>ФИОАдмина</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="ПолеФИОАдминКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ПолеФИОАдминРасширеннаяПодсказка" id="11"/>
+						</LabelField>
+						<Button name="КнопкаВыхода" id="12">
+							<Type>UsualButton</Type>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<CommandName>Form.Command.Выход</CommandName>
+							<ExtendedTooltip name="КнопкаВыходаРасширеннаяПодсказка" id="13"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="5">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<UsualGroup name="Группа5" id="14">
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="15"/>
+							<ChildItems>
+								<Button name="КнопкаДобавления" id="16">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.Добавление</CommandName>
+									<ExtendedTooltip name="КнопкаДобавленияРасширеннаяПодсказка" id="17"/>
+								</Button>
+								<Button name="КнопкаУдаление" id="18">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.Удаление</CommandName>
+									<ExtendedTooltip name="КнопкаУдалениеРасширеннаяПодсказка" id="19"/>
+								</Button>
+								<Button name="КнопкаИзменение" id="20">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.Изменение</CommandName>
+									<ExtendedTooltip name="КнопкаИзменениеРасширеннаяПодсказка" id="21"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа6" id="22">
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="23"/>
+							<ChildItems>
+								<Button name="КнопкаВыгрузка" id="24">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.Выгрузка</CommandName>
+									<ExtendedTooltip name="КнопкаВыгрузкаРасширеннаяПодсказка" id="25"/>
+								</Button>
+								<Button name="КнопкаЗагрузка" id="26">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.Загрузка</CommandName>
+									<ExtendedTooltip name="КнопкаЗагрузкаРасширеннаяПодсказка" id="27"/>
+								</Button>
+								<Button name="КнопкаНайтиСовпадение" id="28">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.НайтиСовпадение</CommandName>
+									<ExtendedTooltip name="КнопкаНайтиСовпадениеРасширеннаяПодсказка" id="29"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа7" id="30">
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<Button name="КнопкаПодсчет" id="32">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.Подсчет</CommandName>
+									<ExtendedTooltip name="КнопкаПодсчетРасширеннаяПодсказка" id="33"/>
+								</Button>
+								<Button name="КнопкаПоиск" id="34">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.ПоискДанных</CommandName>
+									<ExtendedTooltip name="КнопкаПоискРасширеннаяПодсказка" id="35"/>
+								</Button>
+								<Button name="КнопкаВывод" id="36">
+									<Type>UsualButton</Type>
+									<HorizontalStretch>true</HorizontalStretch>
+									<CommandName>Form.Command.ВыводДругихДанных</CommandName>
+									<ExtendedTooltip name="КнопкаВыводРасширеннаяПодсказка" id="37"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="Таблица1" id="82">
+					<Representation>List</Representation>
+					<ReadOnly>true</ReadOnly>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>ДанныеГраждан</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="Таблица1КонтекстноеМеню" id="83"/>
+					<AutoCommandBar name="Таблица1КоманднаяПанель" id="84">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="Таблица1РасширеннаяПодсказка" id="85"/>
+					<SearchStringAddition name="Таблица1СтрокаПоиска" id="86">
+						<AdditionSource>
+							<Item>Таблица1</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Таблица1СтрокаПоискаКонтекстноеМеню" id="87"/>
+						<ExtendedTooltip name="Таблица1СтрокаПоискаРасширеннаяПодсказка" id="88"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="Таблица1СостояниеПросмотра" id="89">
+						<AdditionSource>
+							<Item>Таблица1</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Таблица1СостояниеПросмотраКонтекстноеМеню" id="90"/>
+						<ExtendedTooltip name="Таблица1СостояниеПросмотраРасширеннаяПодсказка" id="91"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="Таблица1УправлениеПоиском" id="92">
+						<AdditionSource>
+							<Item>Таблица1</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="Таблица1УправлениеПоискомКонтекстноеМеню" id="93"/>
+						<ExtendedTooltip name="Таблица1УправлениеПоискомРасширеннаяПодсказка" id="94"/>
+					</SearchControlAddition>
+				</Table>
+				<UsualGroup name="Группа4" id="7">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<Button name="КнопкаСохранить" id="78">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<CommandName>Form.Command.СохранитьИсторию</CommandName>
+							<ExtendedTooltip name="КнопкаСохранитьРасширеннаяПодсказка" id="79"/>
+						</Button>
+						<Button name="КнопкаСоздатьСотрудника" id="80">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<CommandName>Form.Command.СозданиеСотрудника</CommandName>
+							<ExtendedTooltip name="КнопкаСоздатьСотрудникаРасширеннаяПодсказка" id="81"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ФИОАдмина" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФИОАдмина</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеГраждан" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные граждан</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Логин" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыводДругихДанных" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вывод других данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вывод других данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыводДругихДанных</Action>
+		</Command>
+		<Command name="Выгрузка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузка данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Выгрузка</Action>
+		</Command>
+		<Command name="Выход" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выход</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выход</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Выход</Action>
+		</Command>
+		<Command name="Добавление" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавление данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Добавление</Action>
+		</Command>
+		<Command name="Загрузка" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Загрузка</Action>
+		</Command>
+		<Command name="Изменение" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменение данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Изменение</Action>
+		</Command>
+		<Command name="НайтиСовпадение" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти совпадение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти совпадение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НайтиСовпадение</Action>
+		</Command>
+		<Command name="Подсчет" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подсчет граждан</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подсчет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подсчет</Action>
+		</Command>
+		<Command name="ПоискДанных" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоискДанных</Action>
+		</Command>
+		<Command name="СохранитьИсторию" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить историю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить историю</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьИсторию</Action>
+		</Command>
+		<Command name="Удаление" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Удаление</Action>
+		</Command>
+		<Command name="СозданиеСотрудника" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание сотрудника</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание сотрудника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СозданиеСотрудника</Action>
+		</Command>
+	</Commands>
+</Form>
