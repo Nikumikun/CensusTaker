@@ -73,7 +73,7 @@
 		<Metadata name="CommonForm.МенюСотрудника.Form" id="a08ae073-21d4-463d-aa44-0d9134dd6d58.0" configVersion="9199f48f1120974794f2e5bad9f62d3600000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="8c3fa8ab270f6f419e2351cad2320fc000000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="06bca886f1f4a444a004844623f82eef00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="440242038020004ebe2ed16ea85a0eec00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="b6e338d9f9e6f049b77791049bc5c50e00000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="2f1c287d-02d8-4822-a8d7-a0a0108709c7.8" configVersion="0035d7630a1d55469d6558432b1599b500000000"/>
 		<Metadata name="DataProcessor.ВыводОстальныхДанных" id="721733e8-45de-4b55-9360-70189330c9f9" configVersion="5ca97905a5ce05478001b5aad76f467c00000000"/>
 		<Metadata name="DataProcessor.ВыводОстальныхДанных.Form.ФормаВыводаДругихДанных" id="da1d924d-78e2-4a97-84cc-173728995d98" configVersion="addf4fda41146b41bced7db5a36fbb5a00000000"/>
@@ -157,5 +157,7 @@
 		<Metadata name="Document.УдалениеДанных.Form.ФормаУдаления" id="96959575-beef-47c7-9bab-63f55a9a695a" configVersion="7c417aa857fa3a4395679aa03936d1f300000000"/>
 		<Metadata name="Document.УдалениеДанных.Form.ФормаУдаления.Form" id="96959575-beef-47c7-9bab-63f55a9a695a.0" configVersion="e5ae62c30551214a8fb31979b5134e3100000000"/>
 		<Metadata name="Language.Русский" id="4732c367-0320-41ab-876d-0be140c5b930" configVersion="99c97cfbddb81e48844116e9ae95a4c200000000"/>
+		<Metadata name="Style.Стиль1" id="0482bd89-f4bb-4611-ac54-8b93741e3b78" configVersion="8d5b885f9a095c4ca4b4bbadee33a7ec00000000"/>
+		<Metadata name="Style.Стиль1.Style" id="0482bd89-f4bb-4611-ac54-8b93741e3b78.0" configVersion="28f9881d3b0b934391be822af80afa7000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

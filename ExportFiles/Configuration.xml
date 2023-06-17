@@ -203,7 +203,7 @@
 			<MobileApplicationURLs/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.Стиль1</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -225,6 +225,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Style>Стиль1</Style>
 			<CommonForm>ОкноАвторизации</CommonForm>
 			<CommonForm>МенюСотрудника</CommonForm>
 			<CommonForm>МенюАдмина</CommonForm>
