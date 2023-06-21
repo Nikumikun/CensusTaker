@@ -67,10 +67,10 @@
 			<Metadata name="Catalog.СоциальныеДанные.Attribute.СоциальныйСтатус" id="ec81e0fc-72c1-4a35-8e22-f6abca3b67aa"/>
 			<Metadata name="Catalog.СоциальныеДанные.Attribute.Код_СправочникаРабота" id="fa847dbd-f4db-4248-8c4f-4245fc7d66f8"/>
 		</Metadata>
-		<Metadata name="CommonForm.МенюАдмина" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0" configVersion="b39839b098cbb84c9b8b837212799df800000000"/>
-		<Metadata name="CommonForm.МенюАдмина.Form" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0.0" configVersion="643704539d79d6479b5a9aaf5848a14900000000"/>
-		<Metadata name="CommonForm.МенюСотрудника" id="a08ae073-21d4-463d-aa44-0d9134dd6d58" configVersion="36d972aa74edb6469e4988ee59260fad00000000"/>
-		<Metadata name="CommonForm.МенюСотрудника.Form" id="a08ae073-21d4-463d-aa44-0d9134dd6d58.0" configVersion="e235a386b2e9b04b8c92f4a5f8d6da2f00000000"/>
+		<Metadata name="CommonForm.МенюАдмина" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0" configVersion="a7c735a53b6fc2438c3aa5aeed43b42900000000"/>
+		<Metadata name="CommonForm.МенюАдмина.Form" id="f882b071-f87c-4a92-9f3d-8e5f1c6f8ed0.0" configVersion="ec84d4ca6be3054489b14ac1818f29bb00000000"/>
+		<Metadata name="CommonForm.МенюСотрудника" id="a08ae073-21d4-463d-aa44-0d9134dd6d58" configVersion="c68e47f318ed9448b820522f3dcd34ef00000000"/>
+		<Metadata name="CommonForm.МенюСотрудника.Form" id="a08ae073-21d4-463d-aa44-0d9134dd6d58.0" configVersion="1df805f9bf90634ea3bbc4b3915d278d00000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации" id="f8c5ac95-2761-46df-85af-af00f5279b4c" configVersion="3f7ee96ab01d5d4b84622db0343bdafe00000000"/>
 		<Metadata name="CommonForm.ОкноАвторизации.Form" id="f8c5ac95-2761-46df-85af-af00f5279b4c.0" configVersion="68360747470ad84db60b90930db5c11700000000"/>
 		<Metadata name="Configuration.Конфигурация" id="8e4f1061-3979-466b-bd81-5307ea8c077d" configVersion="b6e338d9f9e6f049b77791049bc5c50e00000000"/>
@@ -79,14 +79,14 @@
 		<Metadata name="DataProcessor.ВыводОстальныхДанных.Form.ФормаВыводаДругихДанных" id="da1d924d-78e2-4a97-84cc-173728995d98" configVersion="2efb2f79f688e84182df548b2da914de00000000"/>
 		<Metadata name="DataProcessor.ВыводОстальныхДанных.Form.ФормаВыводаДругихДанных.Form" id="da1d924d-78e2-4a97-84cc-173728995d98.0" configVersion="6c161ac3d2230d468a8ab1dfad2a8d9700000000"/>
 		<Metadata name="DataProcessor.ПодсчетГраждан" id="7ee1174c-2fc7-4ca8-bb4c-ea5342e5a185" configVersion="9dd65fd793135d47ab89c309c1bf382e00000000"/>
-		<Metadata name="DataProcessor.ПодсчетГраждан.Form.ФормаПодсчетГраждан" id="8394d4a1-2394-4b82-81d7-46b93f34369e" configVersion="286db2f32274624fab6fd1924071e76700000000"/>
-		<Metadata name="DataProcessor.ПодсчетГраждан.Form.ФормаПодсчетГраждан.Form" id="8394d4a1-2394-4b82-81d7-46b93f34369e.0" configVersion="cd6bb740b1ff944197db666b817e049c00000000"/>
+		<Metadata name="DataProcessor.ПодсчетГраждан.Form.ФормаПодсчетГраждан" id="8394d4a1-2394-4b82-81d7-46b93f34369e" configVersion="20ca03d506e7874f9b8a32a90bfb850800000000"/>
+		<Metadata name="DataProcessor.ПодсчетГраждан.Form.ФормаПодсчетГраждан.Form" id="8394d4a1-2394-4b82-81d7-46b93f34369e.0" configVersion="eef8c099a8612d48b3d6ac9802c6e8aa00000000"/>
 		<Metadata name="DataProcessor.СписокОбластей" id="9645608b-3039-4c7f-8b5d-cb8140fa36c7" configVersion="d85368321e06f64aadfacc7aa6cde10000000000"/>
 		<Metadata name="DataProcessor.СписокОбластей.Form.ФормаВыгрузки" id="50a8def8-977e-4f11-8305-64f63b4f21da" configVersion="81dd15c8ce7b9d439c4de23a9620b24700000000"/>
 		<Metadata name="DataProcessor.СписокОбластей.Form.ФормаВыгрузки.Form" id="50a8def8-977e-4f11-8305-64f63b4f21da.0" configVersion="e7b34d267ae91647b8438c145e58d31500000000"/>
 		<Metadata name="DataProcessor.СписокТаблиц" id="85a85462-cce2-4878-b45d-2e1c77257455" configVersion="d89d877697f5074f88b3f211399e7c9b00000000"/>
-		<Metadata name="DataProcessor.СписокТаблиц.Form.ФормаНайтиСовпадений" id="e3db11c5-8f54-46cc-bb5c-215a33554013" configVersion="e429382a5983e0419e439c82c12d7a3900000000"/>
-		<Metadata name="DataProcessor.СписокТаблиц.Form.ФормаНайтиСовпадений.Form" id="e3db11c5-8f54-46cc-bb5c-215a33554013.0" configVersion="de484445f7da0d4288d5ab2244cfd5aa00000000"/>
+		<Metadata name="DataProcessor.СписокТаблиц.Form.ФормаНайтиСовпадений" id="e3db11c5-8f54-46cc-bb5c-215a33554013" configVersion="3e9e1cac3aed0742a356f3c7ba56715100000000"/>
+		<Metadata name="DataProcessor.СписокТаблиц.Form.ФормаНайтиСовпадений.Form" id="e3db11c5-8f54-46cc-bb5c-215a33554013.0" configVersion="c243396d0e7b774fba0043a4cd3e125300000000"/>
 		<Metadata name="Document.Авторизация" id="c025a114-f8d3-4147-918d-536bf0168ba0" configVersion="8cde2d6e390ab74daf512a676f0bbe3f00000000">
 			<Metadata name="Document.Авторизация.Attribute.ИмяДокумента" id="397931b2-4930-458d-95e2-10a49115a099"/>
 			<Metadata name="Document.Авторизация.Attribute.Авторизировался" id="945917e2-18b4-4af1-aa67-c0d5bfbe51f5"/>
@@ -106,8 +106,8 @@
 			<Metadata name="Document.ДобавлениеДанныхГражданином.Attribute.Добавил" id="736a13e2-9307-466d-8485-e4b986418fd4"/>
 			<Metadata name="Document.ДобавлениеДанныхГражданином.Attribute.ИмяДокумента" id="c13dfcca-f587-4385-afea-6909de5e2dd4"/>
 		</Metadata>
-		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином" id="f864e255-106a-46fe-9864-7d4492ffea96" configVersion="57dba99e199a984a8bb32b43a163a8ee00000000"/>
-		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином.Form" id="f864e255-106a-46fe-9864-7d4492ffea96.0" configVersion="dfa81a85bb8cda45ba1a326b0186fe6a00000000"/>
+		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином" id="f864e255-106a-46fe-9864-7d4492ffea96" configVersion="60de02abb1876b48aa1d6d1131bde4f800000000"/>
+		<Metadata name="Document.ДобавлениеДанныхГражданином.Form.ФормаДобавленияДанныхГражданином.Form" id="f864e255-106a-46fe-9864-7d4492ffea96.0" configVersion="e0cdd687a139c04f8933617149c645de00000000"/>
 		<Metadata name="Document.ЗагрузкаДанных" id="ac10416f-174c-4154-a8bb-74a09852e72e" configVersion="12da4332f5b81f479d506cf6544a3fdf00000000">
 			<Metadata name="Document.ЗагрузкаДанных.Attribute.ИмяДокумента" id="1ddeaf18-d7d1-4e91-9300-5204f4897332"/>
 			<Metadata name="Document.ЗагрузкаДанных.Attribute.Загрузил" id="37c6b5a2-b714-48da-993d-10af294f23f3"/>
@@ -120,8 +120,8 @@
 			<Metadata name="Document.ИзменениеДанных.Attribute.Гражданин" id="565e67c8-b88d-48eb-a31a-fb087ee27b57"/>
 			<Metadata name="Document.ИзменениеДанных.Attribute.Изменил" id="8d9d4441-c4cd-4201-bbfb-aa5abcaaa0b3"/>
 		</Metadata>
-		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d" configVersion="28e6c3716144294eafbb3f18738f652400000000"/>
-		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных.Form" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d.0" configVersion="c62d84649095f84683283d639c498ac400000000"/>
+		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d" configVersion="42e1d35774cd334297080dd5fd31d95d00000000"/>
+		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных.Form" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d.0" configVersion="530f631a8394a040b4a599fda2dda90500000000"/>
 		<Metadata name="Document.НайтиСовпадение" id="e110571f-6df8-481e-9257-dcb5f7110ec8" configVersion="f841376bce2f7a43a3847e3c09868b9700000000">
 			<Metadata name="Document.НайтиСовпадение.Attribute.Искал" id="56ecc4f0-088e-47af-b1e4-1b3a5df19666"/>
 			<Metadata name="Document.НайтиСовпадение.Attribute.ИмяДокумента" id="bdb92fa0-d14d-4632-9a18-a5b81a5b2592"/>
@@ -136,8 +136,8 @@
 			<Metadata name="Document.ПоискГраждан.Attribute.Искал" id="3a9a1ca9-9376-455d-a6cf-ff3460e4b868"/>
 			<Metadata name="Document.ПоискГраждан.Attribute.ИмяДокумента" id="9980c963-fe57-47e3-a0c6-255269e65ca0"/>
 		</Metadata>
-		<Metadata name="Document.ПоискГраждан.Form.ФормаПоискаДанных" id="9ed20ffc-62e1-4051-b883-23c540c5de81" configVersion="85005595f0a23a408357ed04e313fab100000000"/>
-		<Metadata name="Document.ПоискГраждан.Form.ФормаПоискаДанных.Form" id="9ed20ffc-62e1-4051-b883-23c540c5de81.0" configVersion="281693a60060c040be54d7e3e1ec0d4200000000"/>
+		<Metadata name="Document.ПоискГраждан.Form.ФормаПоискаДанных" id="9ed20ffc-62e1-4051-b883-23c540c5de81" configVersion="c240236b588d3a47b2f55a190a1af58000000000"/>
+		<Metadata name="Document.ПоискГраждан.Form.ФормаПоискаДанных.Form" id="9ed20ffc-62e1-4051-b883-23c540c5de81.0" configVersion="a62d82bf3ade524cae7d0ca4d4be755200000000"/>
 		<Metadata name="Document.СозданиеСотрудника" id="d74cf99f-d804-4012-9c05-57a9245ab63b" configVersion="b8cf3791c1a40b4ca2cf0923c388b33500000000">
 			<Metadata name="Document.СозданиеСотрудника.Attribute.ИмяДокумента" id="74a5307c-e634-4493-9253-c9a59bf65825"/>
 			<Metadata name="Document.СозданиеСотрудника.Attribute.Создал" id="910fda9a-a20b-4f25-9bb6-0bb29321d7b5"/>
