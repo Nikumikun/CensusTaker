@@ -120,8 +120,8 @@
 			<Metadata name="Document.ИзменениеДанных.Attribute.Гражданин" id="565e67c8-b88d-48eb-a31a-fb087ee27b57"/>
 			<Metadata name="Document.ИзменениеДанных.Attribute.Изменил" id="8d9d4441-c4cd-4201-bbfb-aa5abcaaa0b3"/>
 		</Metadata>
-		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d" configVersion="42e1d35774cd334297080dd5fd31d95d00000000"/>
-		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных.Form" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d.0" configVersion="530f631a8394a040b4a599fda2dda90500000000"/>
+		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d" configVersion="a48c079c9a1f9a408668f368c364949600000000"/>
+		<Metadata name="Document.ИзменениеДанных.Form.ФормаИзмененияДанных.Form" id="8acbe9a1-bd9d-47d5-bcba-e065d552e77d.0" configVersion="e9880be9f9ad2840875806d2f8e8d46300000000"/>
 		<Metadata name="Document.НайтиСовпадение" id="e110571f-6df8-481e-9257-dcb5f7110ec8" configVersion="f841376bce2f7a43a3847e3c09868b9700000000">
 			<Metadata name="Document.НайтиСовпадение.Attribute.Искал" id="56ecc4f0-088e-47af-b1e4-1b3a5df19666"/>
 			<Metadata name="Document.НайтиСовпадение.Attribute.ИмяДокумента" id="bdb92fa0-d14d-4632-9a18-a5b81a5b2592"/>
